@@ -1,0 +1,24 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.14);
+	background-color: var(--white);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	margin: 0 auto;
+	padding: 18px 20px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: var(--black);
+}

@@ -1,0 +1,36 @@
+.title {
+	font-size: 24px;
+	font-weight: 700;
+	font-family: var(--second-family);
+	color: var(--primary-color, #000);
+	margin: 0;
+	padding: 0;
+	max-width: 396px;
+}
+
+.large {
+	font-size: 32px;
+}
+.medium {
+	font-size: 28px;
+}
+
+.small {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: var(--grey);
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}

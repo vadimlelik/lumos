@@ -1,0 +1,28 @@
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	min-width: 100%;
+}
+
+.listItem {
+	border-radius: 16px;
+	padding: 32px 42px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.25);
+	background: var(--white);
+}
+.name {
+	margin-left: 8px;
+}
+.listItem:hover {
+	background-color: #f0f0f0;
+}
+
+.active {
+	background-color: #3177f2;
+	color: white;
+}
